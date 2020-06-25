@@ -1,6 +1,6 @@
 ## Installation
 
-Use the docker from dev-pops 
+Use the docker from **dev-pops 
 
 ### A from-scratch setup script
 
@@ -8,7 +8,7 @@ Here is a full script for setting up SOLO with conda and link the dataset path (
 
 ```shell
 
-
+conda install -c pytorch pytorch torchvision -y
 conda install -y cython==0.28.5
 git clone https://github.com/WXinlong/SOLO.git
 cd SOLO
